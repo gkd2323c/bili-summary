@@ -1,0 +1,17 @@
+# whisper.cpp binaries and models (download separately)
+whisper-cpp/
+
+# Output directories
+bili-output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
