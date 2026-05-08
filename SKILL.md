@@ -1,6 +1,17 @@
 ---
 name: bili-summary
 description: "Extract and summarize Bilibili videos. Fetches subtitles or GPU-transcribed audio, danmaku (scrolling comments), video comments, and description — outputs structured JSON for AI agents to summarize. Triggers: Bilibili video summary, summarize this video, what does this video say, bilibili video, B站视频总结, BV号, bilibili.com, video content, video summary, extract video text, video transcript."
+version: 1.0.0
+metadata:
+  openclaw:
+    homepage: https://github.com/gkd2323c/bili-summary
+    requires:
+      bins:
+        - python3
+        - yt-dlp
+      anyBins:
+        - whisper-cli
+    emoji: "🎬"
 ---
 
 # Bilibili Video Summary Tool
